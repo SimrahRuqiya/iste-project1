@@ -65,16 +65,17 @@ img {
 }
 
 .aside {
-    width: 700px;
+    width: 750px;
     padding:10px;
     font-size: 15px;
     line-height: 2;
-    color:black;
     background-color: #CFCCD6;
     border-radius: 20px;
     margin: 10px;
     height: fit-content;
     box-sizing: border-box;
+    text-decoration: none;
+    color: black;
 
 }
 
