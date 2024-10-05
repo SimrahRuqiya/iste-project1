@@ -2,7 +2,12 @@
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header, .footer, a {
+    color: #ffffff;
 }
 
 h1 {
@@ -16,9 +21,13 @@ h2 {
     padding-left: 10px;
 }
 
+body {
+    background-color: 	#eaebfe;
+}
+
 .header {
     display: flex;
-    background-color: #B7B5E4;
+    background-color: #022954;
     margin: 0;
     position: sticky;
 }
@@ -40,7 +49,7 @@ h2 {
     font-size: 1.3em; 
     font-weight: bold; 
     text-decoration: none;
-    color: black;
+    color: #ffffff;
 }
 
 .main {
@@ -64,20 +73,40 @@ h2 {
     padding:10px;
     font-size: 15px;
     line-height: 2;
-    background-color: #CFCCD6;
+    background-color: #b0b8ce;
     border-radius: 20px;
     margin: 10px;
     height: fit-content;
     box-sizing: border-box;
     text-decoration: none;
     color: black;
+}
 
+#font {
+    font-size: larger;
+}
+
+#left_frame {
+    width: 25%;
+    height: 100%;
+    top: 57px;
+    left: 0;
+    position: fixed;
+}
+
+#right_frame {
+    width: 75%;
+    height: 100%;
+    top: 57px;
+    right: 0;
+    position: fixed;
 }
 
 .footer {
-    background-color: #B7B5E4;
+    background-color: #022954;
     text-align: center;
     padding: 8px;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
