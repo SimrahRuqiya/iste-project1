@@ -8,6 +8,7 @@
 
 .header, .footer, a {
     color: #ffffff;
+    text-decoration: none;
 }
 
 h1 {
@@ -21,14 +22,20 @@ h2 {
     padding-left: 10px;
 }
 
+p {
+    line-height: 30px;
+}
+
 body {
     background-color: 	#eaebfe;
 }
 
 .header {
+    padding-bottom: 20px;
+    overflow: hidden;
     display: flex;
     background-color: #022954;
-    margin: 0;
+    margin: auto;
     position: sticky;
 }
 
@@ -71,15 +78,13 @@ body {
 .aside {
     width: 750px;
     padding:10px;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 2;
-    background-color: #b0b8ce;
+    background-color: #638bbf;
     border-radius: 20px;
     margin: 10px;
     height: fit-content;
     box-sizing: border-box;
-    text-decoration: none;
-    color: black;
 }
 
 #font {
@@ -89,7 +94,7 @@ body {
 #left_frame {
     width: 25%;
     height: 100%;
-    top: 57px;
+    top: auto;
     left: 0;
     position: fixed;
 }
@@ -97,7 +102,7 @@ body {
 #right_frame {
     width: 75%;
     height: 100%;
-    top: 57px;
+    top: auto;
     right: 0;
     position: fixed;
 }
@@ -105,7 +110,8 @@ body {
 .footer {
     background-color: #022954;
     text-align: center;
-    padding: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
