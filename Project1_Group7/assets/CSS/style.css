@@ -107,12 +107,8 @@ li {
     box-sizing: border-box;
 }
 
-#font {
-    font-size:large;
-}
-
 #left_frame {
-    width: 25%;
+    width: 15%;
     height: 100%;
     top: auto;
     left: 0;
@@ -120,7 +116,7 @@ li {
 }
 
 #right_frame {
-    width: 75%;
+    width: 85%;
     height: 100%;
     top: auto;
     right: 0;
