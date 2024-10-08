@@ -45,7 +45,7 @@ body {
     display: flex;
     background-color: #022954;
     width: 100%;
-    margin-bottom: auto;
+    /* margin-bottom: auto; */
     position: sticky;
 }
 
@@ -96,7 +96,7 @@ li {
 }
 
 .aside {
-    margin-top: 8%;
+    /* margin-top: 8%; */
     width: 750px;
     height: fit-content;
     padding-top: 15px;
@@ -112,7 +112,7 @@ li {
 
 #left_frame {
     width: 15%;
-    height: 100%;
+    height: 400px;
     top: auto;
     left: 0;
     position: fixed;
@@ -120,7 +120,7 @@ li {
 
 #right_frame {
     width: 85%;
-    height: 100%;
+    height: 400px;
     top: auto;
     right: 0;
     position: fixed;
