@@ -31,7 +31,6 @@ body {
 }
 
 .header {
-    padding-bottom: 10px;
     overflow: hidden;
     display: flex;
     background-color: #022954;
@@ -40,7 +39,12 @@ body {
 }
 
 .header img {
-    margin-top: 20px;
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 #header-link {
